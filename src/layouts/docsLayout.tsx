@@ -51,17 +51,17 @@ const Component: React.FC<{ config: DocsLayoutConfig }> = ({ config }) => {
         tw="flex flex-col text-left border"
         style={{ maxWidth: 740, marginLeft: 96, marginBottom: 90 }}
       >
-        <p tw="text-2xl text-white font-bold" style={{ lineHeight: 1.2, fontSize: 44px }}>
+        <p tw="text-2xl text-white font-bold" style={{ lineHeight: 1.2, fontSize: 44 }}>
           {config.Page}
         </p>
-        <p tw="text-2xl text-white font-bold" style={{ lineHeight: 1.2, fontSize: 24px }}>
+        <p tw="text-2xl text-white font-bold" style={{ lineHeight: 1.2, fontSize: 24 }}>
           {url}
         </p>
       </div>
 
       {/* docs link  */}
 
-      
+
 
       {/* railway logo */}
       <RLogo tw="absolute" style={{ top: 106, right: 97 }} />
