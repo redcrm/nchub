@@ -21,14 +21,14 @@ export const RLogo: React.FC<{
 }> = ({ theme = "dark", style, ...props }) => {
   const rlogo =
     theme === "dark"
-      ? "https://railway.app/brand/logo-light.svg"
-      : "https://railway.app/brand/logo-dark.svg";
+      ? "https://img.creatium.app/db/19/7d/cfdae9dac2c7c78908ccfcea45ca0b2566/logosvg.svg"
+      : "https://img.creatium.app/db/19/7d/cfdae9dac2c7c78908ccfcea45ca0b2566/logosvg.svg";
 
   return (
     <img
       src={rlogo}
       className="rlogo"
-      style={{ width: 96, height: 96, ...style }}
+      style={{ width: 55, height: 55, ...style }}
       {...props}
     />
   );
