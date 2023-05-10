@@ -51,7 +51,7 @@ const Component: React.FC<{ config: DocsLayoutConfig }> = ({ config }) => {
         tw="flex flex-col text-left border"
         style={{ maxWidth: 740, marginLeft: 96, marginBottom: 90 }}
       >
-        <p tw="text-2xl text-white font-bold" style={{ lineHeight: 1.2 }}>
+        <p tw="text-2xl text-white font-bold" style={{ lineHeight: 1.2, fontSize: 24px }}>
           {config.Page}
         </p>
       </div>
