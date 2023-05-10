@@ -28,7 +28,7 @@ export const RLogo: React.FC<{
     <img
       src={rlogo}
       className="rlogo"
-      style={{ width: 55, height: 55, ...style }}
+      style={{ width: 90, height: 90, ...style }}
       {...props}
     />
   );
